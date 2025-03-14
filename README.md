@@ -31,3 +31,6 @@ npm install
 cd ../frontend
 
 npm install
+
+2.**impoort sql**
+
