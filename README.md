@@ -23,3 +23,7 @@
    ```sh
    git clone https://github.com/AgielF/hydroponicIIOT.git
    cd hydroponicIIOT
+cd backend
+npm install
+cd ../frontend
+npm install
