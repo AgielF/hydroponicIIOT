@@ -1,28 +1,29 @@
 # Hydroponic IIOT 🌱💧  
 
-**Hydroponic IIOT** adalah proyek berbasis **Internet of Things (IoT)** yang menghubungkan sensor lingkungan dengan sistem hidroponik untuk pemantauan dan otomatisasi.
+**Hydroponic IIOT** is an **Internet of Things (IoT)** project designed to monitor and automate a hydroponic system using environmental sensors.
 
-## 🚀 Fitur  
-- **Monitoring Sensor**: Menggunakan **DHT22, LDR, dan TDS sensor** untuk membaca suhu, kelembaban, dan tingkat konduktivitas air.  
-- **Real-time Data**: Data ditampilkan secara real-time menggunakan **MQTT**.  
-- **Kendali Pompa**: Pengguna dapat mengontrol pompa air melalui antarmuka web.  
-- **REST API**: Backend dibangun dengan **Node.js & Express** untuk komunikasi dengan ESP32.  
+## 🚀 Features  
+- **Sensor Monitoring**: Uses **DHT22, LDR, and TDS sensors** to measure temperature, humidity, and water conductivity.  
+- **Real-time Data**: Displays real-time sensor data using **MQTT**.  
+- **Pump Control**: Users can control water pumps via a web interface with **MQTT**.  
+- **REST API**: Backend built with **Node.js & Express** for communication with ESP32.  
 
-## 🏗️ Teknologi yang Digunakan  
-- **ESP32** untuk membaca sensor dan mengirim data.  
-- **Node.js + Express** untuk backend API.  
-- **React.js** untuk frontend antarmuka pengguna.  
-- **MySQL** sebagai database untuk menyimpan data historis sensor.  
+## 🏗️ Technologies Used  
+- **ESP32** for sensor readings and data transmission.  
+- **Node.js + Express** for backend API.  
+- **React.js** for the user interface.  
+- **MySQL** as the database to store historical sensor data.  
+- **WebSocket** for real-time communication.  
 
+## 📸 User Interface Preview  
+![Dashboard Preview](https://via.placeholder.com/800x400.png?text=Dashboard+Screenshot)  
 
-## 📸 Tampilan Antarmuka  
-![Dashboard Preview](https://via.placeholder.com/800x400.png?text=Screenshot+Dashboard)  
-
-## 🔧 Instalasi  
-1. **Clone repository ini**  
+## 🔧 Installation  
+1. **Clone this repository**  
    ```sh
    git clone https://github.com/AgielF/hydroponicIIOT.git
    cd hydroponicIIOT
+
 cd backend
 
 npm install
